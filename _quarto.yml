@@ -1,0 +1,20 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Derek Weix"
+  navbar:
+    left:
+      - about.qmd
+      - icon: github
+        href: https://github.com/dpweix
+      - icon: twitter
+        href: https://twitter.com/derekweix
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+
+editor: visual
+
