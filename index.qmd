@@ -1,9 +1,10 @@
 ---
 title: "Derek Weix"
 title-block-style: none
-image: profile.jpg
+image: temp-headshot.jpeg
 about:
   template: jolla
+  image-shape: rounded
   links:
     - icon: twitter
       text: Twitter
