@@ -3,20 +3,27 @@ project:
   output-dir: docs
 
 website:
-  title: "Statistical Fun Times"
+  title: "Derek Weix"
   navbar:
     left:
-      - blog.qmd
-      - talks.qmd
-      - index.qmd
+      - text: "Blog"
+        href: blog.qmd
+      - text: "Talks" 
+        href: talks.qmd
+      - text: "About" 
+        href: index.qmd
     right:
       - icon: github
         href: https://github.com/dpweix
       - icon: twitter
         href: https://twitter.com/derekweix
+  page-footer: "Copyright 2022, Derek Weix" 
+  
 format:
   html:
-    theme: cosmo
+    theme:
+      light: flatly
+      dark: darkly #flatly, lux, slate, superhero, darkly
     css: styles.css
 
 editor: visual

@@ -1,5 +1,6 @@
 ---
-title: "About"
+title: "Derek Weix"
+title-block-style: none
 image: profile.jpg
 about:
   template: jolla
@@ -15,4 +16,6 @@ about:
       href: https://github.com/dpweix
 ---
 
-About this blog
+I am a doctoral candidate in the statistical sciences department of Baylor University. I have an masters in statistics and an undergraduate degree in mathematics.
+
+My current research is focused on fault detection in water treatment systems. Particularly monitoring changes in the variances of such systems.

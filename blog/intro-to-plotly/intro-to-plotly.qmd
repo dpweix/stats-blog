@@ -1,16 +1,17 @@
 ---
-title: "Intro to Plotly"
+title: "Introduction to Plotly"
+subtitle: "Interactive data visualization without shiny"
 author: "Derek Weix"
 date: "2022-06-06"
-categories: [news, code, analysis]
-image: "image.jpg"
+categories: [data visualization, R]
+image: "plotly-logo.png"
 ---
 
 ## What is `plotly`?
 
 There are many ways to visualize data in `R`. Most users default to either base graphics or `ggplot2`; however, `plotly` is also an option. The main advantage of `plotly` is that it can make graphics interactive. For example, if you hover your mouse near a point you can get its exact coordinates. Another example is zooming into a specific region on a plot.
 
-![](image.png)
+![](plotly-logo.png)
 
 I know that many people are now thinking about `shiny`, but these packages provide different services. A `shiny` application allows for more customization and in depth interactivity; however, it must always be supported by a live `R` session. In `plotly` there is no need for a live `R` session. It is a more lightweight service.
 
