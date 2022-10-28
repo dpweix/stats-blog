@@ -7,97 +7,6 @@
     "text": "My current research is focused on fault detection in water treatment systems. Particularly monitoring changes in the variances of such systems."
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "Since this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
-  },
-  {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "news\n\n\n\n\n\n\n\n\n\n\n\nOct 22, 2022\n\n\nTristan O’Malley\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJun 6, 2022\n\n\nDerek Weix\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/intro-to-plotly/index.html#what-is-plotly",
-    "href": "posts/intro-to-plotly/index.html#what-is-plotly",
-    "title": "Intro to Plotly",
-    "section": "What is plotly?",
-    "text": "What is plotly?\nThere are many ways to visualize data in R. Most users default to either base graphics or ggplot2; however, plotly is also an option. The main advantage of plotly is that it can make graphics interactive. For example, if you hover your mouse near a point you can get its exact coordinates. Another example is zooming into a specific region on a plot.\nI know that many people are now thinking about shiny, but these packages provide different services. A shiny application allows for more customization and in depth interactivity; however, it must always be supported by a live R session. In plotly there is no need for a live R session. It is a more lightweight service."
-  },
-  {
-    "objectID": "posts/intro-to-plotly/index.html#comparison-to-ggplot2",
-    "href": "posts/intro-to-plotly/index.html#comparison-to-ggplot2",
-    "title": "Intro to Plotly",
-    "section": "Comparison to ggplot2",
-    "text": "Comparison to ggplot2\n\nlibrary(\"tidyverse\")\ntheme_set(theme_bw())\nlibrary(\"plotly\")\n\nThe function plot_ly allows the user to create plotly objects. However, no need to worry about learning an entirely new syntax for graphical objects. Fortunately for us, ggplot2 objects can be directly converted into plotly objects with the ggplotly function.\nLet us consider a box plot using the mtcars data set in R. In the code below we visualize mpg by cyl.\n\n# Create and save ggplot2 object\nmy_plot <- \n  mtcars |> \n  mutate(cyl = as_factor(cyl)) |> \n  ggplot(aes(cyl, mpg)) +\n  geom_boxplot()\n\n# Plot ggplot2 object\nmy_plot\n\n\n\n\nNotice the differences and similarities between the ggplot2 and plotly objects. Graphically they are identical; however, when we hover our mouse over the plotly version we are greeted with information and options. For instance, we can zoom into a single boxplot, get the exact numerical values, and save an image our altered plot.\n\n# Convert ggplot2 object to plotly object\nggplotly(my_plot)"
-  },
-  {
-    "objectID": "posts/intro-to-plotly/index.html#use-cases",
-    "href": "posts/intro-to-plotly/index.html#use-cases",
-    "title": "Intro to Plotly",
-    "section": "Use Cases",
-    "text": "Use Cases\nThe interactive use of plotly only shines in interactive mediums. Thus, if your graphic is only going to appear in a pdf, using plotly does not help. However, presentations in html format or jupyter notebooks, can be made more informative. This document is only a bare minimum introduction to plotly, but I hope that it can contextualize its use for the average R user."
-  },
-  {
-    "objectID": "posts/intro-to-plotly/index.html",
-    "href": "posts/intro-to-plotly/index.html",
-    "title": "Intro to Plotly",
-    "section": "",
-    "text": "There are many ways to visualize data in R. Most users default to either base graphics or ggplot2; however, plotly is also an option. The main advantage of plotly is that it can make graphics interactive. For example, if you hover your mouse near a point you can get its exact coordinates. Another example is zooming into a specific region on a plot.\n\nI know that many people are now thinking about shiny, but these packages provide different services. A shiny application allows for more customization and in depth interactivity; however, it must always be supported by a live R session. In plotly there is no need for a live R session. It is a more lightweight service."
-  },
-  {
-    "objectID": "posts.html",
-    "href": "posts.html",
-    "title": "Blog",
-    "section": "",
-    "text": "news\n\n\n\n\n\n\n\n\n\n\n\nOct 22, 2022\n\n\nTristan O’Malley\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJun 6, 2022\n\n\nDerek Weix\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "blog/intro-to-plotly/index.html",
-    "href": "blog/intro-to-plotly/index.html",
-    "title": "Intro to Plotly",
-    "section": "",
-    "text": "There are many ways to visualize data in R. Most users default to either base graphics or ggplot2; however, plotly is also an option. The main advantage of plotly is that it can make graphics interactive. For example, if you hover your mouse near a point you can get its exact coordinates. Another example is zooming into a specific region on a plot.\n\nI know that many people are now thinking about shiny, but these packages provide different services. A shiny application allows for more customization and in depth interactivity; however, it must always be supported by a live R session. In plotly there is no need for a live R session. It is a more lightweight service."
-  },
-  {
-    "objectID": "blog/intro-to-plotly/index.html#comparison-to-ggplot2",
-    "href": "blog/intro-to-plotly/index.html#comparison-to-ggplot2",
-    "title": "Intro to Plotly",
-    "section": "Comparison to ggplot2",
-    "text": "Comparison to ggplot2\n\nlibrary(\"tidyverse\")\ntheme_set(theme_bw())\nlibrary(\"plotly\")\n\nThe function plot_ly allows the user to create plotly objects. However, no need to worry about learning an entirely new syntax for graphical objects. Fortunately for us, ggplot2 objects can be directly converted into plotly objects with the ggplotly function.\nLet us consider a box plot using the mtcars data set in R. In the code below we visualize mpg by cyl.\n\n# Create and save ggplot2 object\nmy_plot <- \n  mtcars |> \n  mutate(cyl = as_factor(cyl)) |> \n  ggplot(aes(cyl, mpg)) +\n  geom_boxplot()\n\n# Plot ggplot2 object\nmy_plot\n\n\n\n\nNotice the differences and similarities between the ggplot2 and plotly objects. Graphically they are identical; however, when we hover our mouse over the plotly version we are greeted with information and options. For instance, we can zoom into a single boxplot, get the exact numerical values, and save an image our altered plot.\n\n# Convert ggplot2 object to plotly object\nggplotly(my_plot)"
-  },
-  {
-    "objectID": "blog/intro-to-plotly/index.html#use-cases",
-    "href": "blog/intro-to-plotly/index.html#use-cases",
-    "title": "Intro to Plotly",
-    "section": "Use Cases",
-    "text": "Use Cases\nThe interactive use of plotly only shines in interactive mediums. Thus, if your graphic is only going to appear in a pdf, using plotly does not help. However, presentations in html format or jupyter notebooks, can be made more informative. This document is only a bare minimum introduction to plotly, but I hope that it can contextualize its use for the average R user."
-  },
-  {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Derek Weix",
-    "section": "",
-    "text": "Interactive data visualization without shiny\n\n\n\n\ndata visualization\n\n\nR\n\n\n \n\n\n\n\nJun 6, 2022\n\n\nDerek Weix\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "talks.html",
-    "href": "talks.html",
-    "title": "Derek Weix",
-    "section": "",
-    "text": "news\n\n\n\n\n\n\n\n\n\n\n\nOct 22, 2022\n\n\nTristan O’Malley\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJun 6, 2022\n\n\nDerek Weix\n\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "talks/welcome/index.html",
     "href": "talks/welcome/index.html",
     "title": "Welcome To My Blog",
@@ -126,13 +35,6 @@
     "text": "Use Cases\nThe interactive use of plotly only shines in interactive mediums. Thus, if your graphic is only going to appear in a pdf, using plotly does not help. However, presentations in html format or jupyter notebooks, can be made more informative. This document is only a bare minimum introduction to plotly, but I hope that it can contextualize its use for the average R user."
   },
   {
-    "objectID": "blog/welcome/index.html",
-    "href": "blog/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "Since this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
-  },
-  {
     "objectID": "blog/intro-to-plotly/intro-to-plotly.html",
     "href": "blog/intro-to-plotly/intro-to-plotly.html",
     "title": "Introduction to Plotly",
@@ -152,5 +54,19 @@
     "title": "Introduction to Plotly",
     "section": "Use Cases",
     "text": "Use Cases\nThe interactive use of plotly only shines in interactive mediums. Thus, if your graphic is only going to appear in a pdf, using plotly does not help. However, presentations in html format or jupyter notebooks, can be made more informative. This document is only a bare minimum introduction to plotly, but I hope that it can contextualize its use for the average R user."
+  },
+  {
+    "objectID": "talks.html",
+    "href": "talks.html",
+    "title": "Derek Weix",
+    "section": "",
+    "text": "news\n\n\n\n\n\n\n\n\n\n\n\nOct 22, 2022\n\n\nTristan O’Malley\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJun 6, 2022\n\n\nDerek Weix\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Derek Weix",
+    "section": "",
+    "text": "Interactive data visualization without shiny\n\n\n\n\ndata visualization\n\n\nR\n\n\n \n\n\n\n\nJun 6, 2022\n\n\nDerek Weix\n\n\n\n\n\n\nNo matching items"
   }
 ]
