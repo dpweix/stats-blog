@@ -1,0 +1,13 @@
+---
+title: "Introduction to Zotero"
+author: "Derek Weix"
+date: "2022-09-09"
+categories: [departmental]
+image: "zotero-logo.png"
+---
+
+-   Intradepartmental presentation introducing Baylor graduate students to Zotero.
+
+-   [Slides](intro-to-zotero.pdf)
+
+![](zotero-logo.png)
