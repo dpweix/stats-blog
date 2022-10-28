@@ -5,5 +5,33 @@
       "/posts/welcome/index.html",
       "/posts/intro-to-plotly/index.html"
     ]
+  },
+  {
+    "listing": "/about.html",
+    "items": [
+      "/posts/welcome/index.html",
+      "/posts/intro-to-plotly/index.html"
+    ]
+  },
+  {
+    "listing": "/posts.html",
+    "items": [
+      "/blog/welcome/index.html",
+      "/blog/intro-to-plotly/index.html"
+    ]
+  },
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/blog/welcome/index.html",
+      "/blog/intro-to-plotly/index.html"
+    ]
+  },
+  {
+    "listing": "/talks.html",
+    "items": [
+      "/talks/welcome/index.html",
+      "/talks/intro-to-plotly/index.html"
+    ]
   }
 ]

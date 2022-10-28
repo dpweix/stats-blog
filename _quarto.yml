@@ -3,10 +3,13 @@ project:
   output-dir: docs
 
 website:
-  title: "Derek Weix"
+  title: "Statistical Fun Times"
   navbar:
     left:
-      - about.qmd
+      - blog.qmd
+      - talks.qmd
+      - index.qmd
+    right:
       - icon: github
         href: https://github.com/dpweix
       - icon: twitter
