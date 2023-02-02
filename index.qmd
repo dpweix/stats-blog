@@ -17,6 +17,6 @@ about:
       href: https://github.com/dpweix
 ---
 
-I am a doctoral candidate in the statistical sciences department of Baylor University. I have an masters in statistics and an undergraduate degree in mathematics.
+I am a doctoral candidate in the statistical sciences department of Baylor University. I have a masters in statistics and an undergraduate degree in mathematics.
 
 My current research is focused on fault detection in water treatment systems. Particularly monitoring changes in the variances of such systems.
